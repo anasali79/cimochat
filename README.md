@@ -52,3 +52,57 @@ export default tseslint.config({
   },
 })
 ```
+
+
+
+
+
+
+# CimoChat
+CimoChat is a real-time chat application built using [CometChat SDK], allowing users to send and receive messages instantly. This project demonstrates my ability to integrate third-party chat APIs into a frontend or full-stack app.
+
+
+
+## Features
+- User login/signup
+- Real-time messaging
+- User presence (online/offline)
+- Group and private chat support
+
+
+
+## Tech Stack
+- React.js (or your frontend framework)
+- CometChat SDK
+
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/anasali79/cimochat
+   cd cimochat
+
+npm install
+
+npm run dev
+
+
+
+
+## Challenges Faced
+- **Authentication delay**: Initially had issues syncing user auth state with CometChat. Resolved by using CometChat's `onAuthStateChanged`.
+- **Real-time message lag**: Fixed by properly initializing listeners in `componentDidMount`.
+  
+## Email in cometchat.com
+work.anas79+test@gmail.com
+
+
+## Author
+- **Anas Ali**
+- | [Email](mailto:work.anas79@gmail.com)
+
+  
+
+
+
